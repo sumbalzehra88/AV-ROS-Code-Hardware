@@ -3,7 +3,7 @@
 <package format="3">
   <name>heading_controller_pkg</name>
   <version>0.0.1</version>
-  <description>Heading controller and GPS distance/velocity nodes</description>
+  <description>Heading controller, GPS distance/velocity, speed controllers, steering monitor, GNSS heading, and checkpoint monitor nodes</description>
   <maintainer email="you@example.com">Your Name</maintainer>
   <license>Apache-2.0</license>
 
@@ -13,6 +13,10 @@
   <depend>std_msgs</depend>
   <depend>sensor_msgs</depend>
   <depend>geometry_msgs</depend>
+  <depend>rcl_interfaces</depend>
+  <depend>yaml-cpp</depend>
+  <depend>nav_msgs</depend>
+  <depend>ackermann_msgs</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
